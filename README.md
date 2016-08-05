@@ -10,7 +10,11 @@ You can access the original one from link.
 Webpack + React.js + React-dom + React Router used for that project. 
 
 For install and run 
-installation:
+
+installation
+
 npm install 
-run localhost:
+
+run localhost
+
 npm start 
