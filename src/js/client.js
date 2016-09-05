@@ -12,9 +12,7 @@ import Portfolio2 from './pages/Portfolio2'
 import Portfolio3 from './pages/Portfolio3'
 import Portfolio4 from './pages/Portfolio4'
 import PortfolioSingle from './pages/PortfolioSingle'
-import Blog1 from './pages/Blog1'
-import Blog2 from './pages/Blog2'
-import BlogSingle from './pages/BlogSingle'
+
 import FullWidthPage from './pages/FullWidthPage'
 import SidebarPage from './pages/SidebarPage'
 import FAQ from './pages/FAQ'
@@ -36,9 +34,6 @@ ReactDOM.render(
             <Route path="portfolio3" component={Portfolio3}></Route>
             <Route path="portfolio4" component={Portfolio4}></Route>
             <Route path="portfolioSingle" component={PortfolioSingle}></Route>
-            <Route path="blog1" component={Blog1}></Route>
-            <Route path="Blog2" component={Blog2}></Route>
-            <Route path="BlogSingle" component={BlogSingle}></Route>
             <Route path="fullWidthPage" component={FullWidthPage}></Route>
             <Route path="sidebarPage" component={SidebarPage}></Route>
             <Route path="faq" component={FAQ}></Route>
