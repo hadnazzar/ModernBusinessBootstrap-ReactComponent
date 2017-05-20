@@ -4,7 +4,7 @@ import Title from './header/Title'
 import Navbar from './header/Navbar'
 export default class Header extends React.Component {
 
-    handleChange(e) {
+  handleChange(e) {
         const title = e.target.value;
         this.props.changeTitle(title);
     }
@@ -12,8 +12,8 @@ export default class Header extends React.Component {
       return(
        <div class="container">
         <Navbar/>
-        <Title title={this.props.title}/>
-        <input id="header-input-changer" value={this.props.title} onChange={this.handleChange.bind(this)}/>
+        {/*<Title title={this.props.title}/>*/}
+        {/*<input id="header-input-changer" value={this.props.title} onChange={this.handleChange.bind(this)}/>*/}
        </div>
       );
   }

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router , Route , IndexRoute , hashHistory } from "react-router";
 
-import Layout from './components/Layout'
+import Layout from './layout/Layout'
 import Home from './pages/Home'
 import About from './pages/About'
 import Services from './pages/Services'
